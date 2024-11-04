@@ -1,0 +1,76 @@
+// Main Footer
+.mainFooter {
+  padding: 40px 0;
+  background-color: $blackClr;
+
+  img {
+    height: 50px;
+    object-fit: contain;
+
+    @include md {
+      height: 40px;
+    }
+  }
+
+  .logo {
+    @include md {
+      text-align: center;
+    }
+
+    a {
+      display: inline-block;
+    }
+  }
+
+  .contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    gap: 20px;
+
+    &:after {
+      content: "";
+      width: 3px;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      background-color: $whiteClr;
+      transform: translateX(-50%);
+    }
+
+    .info {
+      color: $whiteClr;
+      padding: 0 20px;
+
+      @include md {
+        padding: 0 15px;
+      }
+
+      h6 {
+        color: inherit;
+        margin-bottom: 4px;
+      }
+
+      a {
+        color: inherit;
+        font-style: italic;
+
+        &:hover {
+          color: inherit;
+        }
+      }
+    }
+  }
+
+  .payment {
+    text-align: center;
+
+    .txt {
+      color: $whiteClr;
+      margin-top: 10px;
+    }
+  }
+}

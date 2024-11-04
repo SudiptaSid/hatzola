@@ -1,0 +1,50 @@
+// Fonts
+$bodyFont: "PT Sans", sans-serif;
+
+@mixin headingOne {
+  font-size: 52px;
+
+  @include md {
+    font-size: 32px;
+  }
+}
+
+@mixin headingTwo {
+  font-size: 42px;
+
+  @include md {
+    font-size: 28px;
+  }
+}
+
+@mixin headingThree {
+  font-size: 32px;
+
+  @include md {
+    font-size: 24px;
+  }
+}
+
+@mixin headingFour {
+  font-size: 26px;
+
+  @include md {
+    font-size: 22px;
+  }
+}
+
+@mixin headingFive {
+  font-size: 22px;
+
+  @include md {
+    font-size: 20px;
+  }
+}
+
+@mixin headingSix {
+  font-size: 18px;
+
+  @include md {
+    font-size: 16px;
+  }
+}

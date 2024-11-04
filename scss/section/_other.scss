@@ -1,0 +1,32 @@
+.error-msg {
+  color: #ff0000;
+}
+
+.error {
+  color: #ff0000;
+}
+
+.gap-y1 {
+  gap: 15px 0;
+}
+
+.gap-y2 {
+  gap: 24px 0;
+}
+
+.gap-y3 {
+  gap: 32px 0;
+}
+
+/* Main Wrapper */
+.mainWrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: url("../images/bg.jpg");
+  justify-content: center;
+  align-items: center;
+  padding: 2em 0;
+  overflow: hidden;
+}
